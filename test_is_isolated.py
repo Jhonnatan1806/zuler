@@ -3,7 +3,7 @@ import numpy as np
 from main import is_isolated
 from main import fill_diagonal
 
-class TestIsIsolet(unittest.TestCase):
+class TestIsIsolated(unittest.TestCase):
     
     def setUp(self):
         self.matrix = np.array([
